@@ -1,0 +1,32 @@
+{
+    "name":        "gemstone-config-stylelint",
+    "homepage":    "http://github.com/gemstonejs/gemstone-config-stylelint",
+    "description": "StyleLint Linting Configuration for CSS Files in Gemstone JavaScript Technology Stack",
+    "version":     "0.9.0",
+    "license":     "Apache-2.0",
+    "author": {
+        "name":    "Gemstone Project",
+        "url":     "http://gemstonejs.com"
+    },
+    "keywords": [
+        "gemstone", "stylelint", "config", "css"
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/gemstonejs/gemstone-config-stylelint.git"
+    },
+    "bugs": {
+        "url":  "http://github.com/gemstonejs/gemstone-config-stylelint/issues"
+    },
+    "peerDependencies": {
+        "stylelint":                      "*"
+    },
+    "dependencies" : {
+        "stylelint-config-standard":      "~16.0.0"
+    },
+    "engines": {
+        "node":                           ">=6.0.0"
+    },
+    "main": "./gemstone-config-stylelint.js"
+}
+
