@@ -13,16 +13,16 @@ module.exports = {
         "color-hex-length":                             "long",
         "rule-nested-empty-line-before":                null,
         "rule-empty-line-before":                       [ "always-multi-line", {
-                                                            "except": [
-                                                                "after-single-line-comment",
-                                                                "inside-block-and-after-rule",
-                                                                "first-nested"
-                                                            ],
-                                                            "ignore": [
-                                                                "after-comment",
-                                                                "inside-block"
-                                                            ]
-                                                        } ],
+            "except": [
+                "after-single-line-comment",
+                "inside-block-and-after-rule",
+                "first-nested"
+            ],
+            "ignore": [
+                "after-comment",
+                "inside-block"
+            ]
+        } ],
         "declaration-empty-line-before":                "never",
         "declaration-colon-space-before":               "never",
         "declaration-colon-space-after":                null,

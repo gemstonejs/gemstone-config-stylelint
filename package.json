@@ -18,6 +18,15 @@
     "bugs": {
         "url":  "http://github.com/gemstonejs/gemstone-config-stylelint/issues"
     },
+    "devDependencies": {
+        "eslint":                         "~3.19.0",
+        "eslint-config-standard":         "~10.0.0",
+        "eslint-plugin-standard":         "~2.2.0",
+        "eslint-plugin-promise":          "~3.5.0",
+        "eslint-plugin-import":           "~2.2.0",
+        "eslint-plugin-node":             "~4.2.2",
+        "babel-eslint":                   "~7.2.1"
+    },
     "peerDependencies": {
         "stylelint":                      "*"
     },
@@ -26,6 +35,9 @@
     },
     "engines": {
         "node":                           ">=6.0.0"
+    },
+    "scripts": {
+        "prepublish": "eslint --config eslint.yaml gemstone-config-stylelint.js"
     },
     "main": "./gemstone-config-stylelint.js"
 }
