@@ -2,7 +2,7 @@
     "name":        "gemstone-config-stylelint",
     "homepage":    "http://github.com/gemstonejs/gemstone-config-stylelint",
     "description": "StyleLint Linting Configuration for CSS Files in Gemstone JavaScript Technology Stack",
-    "version":     "0.9.2",
+    "version":     "0.9.3",
     "license":     "Apache-2.0",
     "author": {
         "name":    "Gemstone Project",
