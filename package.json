@@ -37,7 +37,7 @@
         "node":                           ">=6.0.0"
     },
     "scripts": {
-        "prepublish": "eslint --config eslint.yaml gemstone-config-stylelint.js"
+        "prepublishOnly": "eslint --config eslint.yaml gemstone-config-stylelint.js"
     },
     "main": "./gemstone-config-stylelint.js"
 }
