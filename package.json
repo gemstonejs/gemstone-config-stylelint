@@ -28,7 +28,7 @@
         "babel-eslint":                   "~7.2.3"
     },
     "peerDependencies": {
-        "stylelint":                      "*"
+        "stylelint":                      "~8.0.0"
     },
     "dependencies" : {
         "stylelint-config-standard":      "~17.0.0"
