@@ -11,7 +11,7 @@ module.exports = {
         "indentation":                                  4,
         "color-hex-case":                               [ "lower" ],
         "color-hex-length":                             "long",
-        "rule-nested-empty-line-before":                null,
+        "at-rule-no-unknown":                           [ true, { ignoreAtRules: [ "scope" ] } ],
         "rule-empty-line-before":                       [ "always-multi-line", {
             "except": [
                 "after-single-line-comment",
