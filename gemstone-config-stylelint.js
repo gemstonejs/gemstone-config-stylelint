@@ -28,7 +28,8 @@ module.exports = {
         "declaration-colon-space-after":                null,
         "shorthand-property-no-redundant-values":       null,
         "selector-descendant-combinator-no-non-space":  null,
-        "block-opening-brace-space-before":             null
+        "block-opening-brace-space-before":             null,
+        "max-empty-lines":                              null
     }
 }
 
